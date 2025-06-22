@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    .hover-shrink:hover {
+      transform: scale(0.95);
+      transition: transform 0.2s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-[#2d3748] text-white relative min-h-screen">
+
+<!-- Navigation -->
+<header class="w-full px-8 py-4 bg-black flex justify-between items-center fixed top-0 left-0 z-50">
+  <div class="flex items-center gap-2">
+    <div class="bg-red-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center">HR</div>
+    <span class="text-xl font-semibold">HRfinds</span>
+  </div>
+  <nav class="hidden md:flex gap-6 text-sm font-medium">
+    <a href="HRfinds.html" class="hover:text-blue-400">Home</a>
+    <a href="about.html" class="hover:text-blue-400">About</a>
+    <a href="Recources.html" class="hover:text-blue-400">Services</a>
+    <a href="Contact.html" class="hover:text-blue-400">Contact</a>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main class="pt-28 px-6 md:px-20 pb-20 relative">
+  <h1 class="text-4xl font-bold mb-12 text-center">Contact Us</h1>
+  
+  <div class="flex flex-col lg:flex-row gap-12 items-start">
+    
+    <!-- Form Section -->
+<form action="https://formspree.io/f/mgvylbgo" method="POST" class="flex-1 bg-white text-black p-8 rounded-lg shadow-md space-y-5">
+  <input type="text" name="name" placeholder="Name" required class="w-full p-3 border-b-2 border-gray-300 focus:outline-none"/>
+  
+  <input type="text" name="surname" placeholder="Surname" required class="w-full p-3 border-b-2 border-gray-300 focus:outline-none"/>
+  
+  <input type="email" name="email" placeholder="Email" required class="w-full p-3 border-b-2 border-gray-300 focus:outline-none"/>
+  
+  <textarea name="message" rows="4" placeholder="Message" required class="w-full p-3 border-b-2 border-gray-300 focus:outline-none"></textarea>
+  
+  <button type="submit" class="bg-black text-white px-6 py-3 rounded-full font-semibold transition-transform hover:scale-95">
+    Submit
+  </button>
+</form>
+
+  </div>
+</main>
+
+
+ <!-- Footer -->
+<footer class="footer bg-gray-900 text-white px-8 py-10">
+  <div class="footer-logo flex flex-col items-center mb-6">
+    <!-- Replace with actual HRfinds logo image if available -->
+    <div class="bg-red-600 text-white font-bold rounded-full w-14 h-14 flex items-center justify-center text-2xl">HR</div>
+    <span class="text-xl font-semibold mt-2">HRfinds</span>
+    
+    <div class="social mt-4 flex gap-4">
+      <a href="#"><i class="fab fa-linkedin text-white text-xl"></i></a>
+      <a href="#"><i class="fab fa-twitter text-white text-xl"></i></a>
+      <a href="#"><i class="fab fa-tiktok text-white text-xl"></i></a>
+      <a href="#"><i class="fab fa-facebook text-white text-xl"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-links grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+    <div>
+      <h4 class="font-bold mb-2">Quick Links</h4>
+      <a href="index.html" class="block mb-1">Home</a>
+      <a href="Recources.html" class="block mb-1">Services</a>
+      <a href="about.html" class="block mb-1">About</a>
+      <a href="contact.html" class="block mb-1">Contact Us</a>
+    </div>
+
+    <div>
+      <h4 class="font-bold mb-2">Services & Support</h4>
+      <ul class="list-disc ml-4">
+        <li>CV Upgrades</li>
+        <li>Interview Prep</li>
+        <li>LinkedIn Optimization</li>
+        <li>Career Coaching</li>
+        <li>Mock Interviews</li>
+      </ul>
+    </div>
+
+     <div>
+      <h4 class="font-bold mb-2">Contact Information</h4>
+      <p class="mb-1"><i class="fas fa-phone-alt"></i> +27 73 196 2583</p>
+      <p class="mb-1"><i class="fas fa-map-marker-alt"></i> Sandton, Johannesburg, South Africa</p>
+      <p class="mt-2"><strong>Hours:</strong><br>Mon - Fri: 09:00 - 17:00</p>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="footer-bottom text-center text-xs mt-10 border-t border-gray-700 pt-4">
+    ©  2025 — HRfinds. All Rights Reserved.
+  </div>
+</footer>
+<script src="java.js" defer></script>
+</body>
+</html>
